@@ -61,10 +61,10 @@
 
      .about-container {
         flex-direction: column;
+        padding-bottom: 10px;
 
         
         .about-story {
-           height: 50%;
            width: 100%;
            
            text-align: center;
@@ -78,17 +78,20 @@
    .skills-container {
 
       background-attachment: scroll;
+      height: 95vh;
 
       .skills-position {
 
-         top: 8%; 
+         top: 2%; 
          width: 95%;
          left: 3%;
+         
+         
          
 
          .skills-content {
             flex-direction: column;
-            height: 80vh;
+            height: 88vh;
 
             .skills-p1 {
                width: 70%;
