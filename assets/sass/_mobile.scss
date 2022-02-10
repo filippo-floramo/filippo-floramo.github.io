@@ -6,6 +6,8 @@
       bottom: 0;
       border-bottom: 0px;
       border-top: 1px solid white;
+     
+     
 
    h2 {
       display: none;
@@ -32,7 +34,7 @@
   .landing {
    height: 100vh;
 
-   background-attachment: scroll;
+  
 
    .landing-content-position {
       top: 25%;
@@ -74,13 +76,14 @@
 
    .skills-container {
 
-      background-attachment: scroll;
+     
 
       .skills-position {
 
          top: 8%; 
-         width: 100%;
-         left: 1%;
+         width: 95%;
+         left: 3%;
+         
 
          .skills-content {
             flex-direction: column;

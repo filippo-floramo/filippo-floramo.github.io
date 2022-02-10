@@ -460,7 +460,6 @@ body {
   }
   .landing {
     height: 100vh;
-    background-attachment: scroll;
   }
   .landing .landing-content-position {
     top: 25%;
@@ -485,13 +484,10 @@ body {
     width: 100%;
     text-align: center;
   }
-  .skills-container {
-    background-attachment: scroll;
-  }
   .skills-container .skills-position {
     top: 8%;
-    width: 100%;
-    left: 1%;
+    width: 95%;
+    left: 3%;
   }
   .skills-container .skills-position .skills-content {
     -webkit-box-orient: vertical;
