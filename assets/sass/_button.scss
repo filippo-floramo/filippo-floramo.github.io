@@ -1,0 +1,48 @@
+
+/*Nav*/
+
+.nav-img:hover {
+      transform: scale(.98); 
+}
+
+
+
+/*About */
+.s2i {
+      color:  $font-color-about;
+}
+
+.s2i:hover {
+      color: lighten($font-color-about, 20%);
+}
+
+
+
+
+/*Contacts*/
+
+.submit {
+      padding: 10px 50px;
+      background-color: aquamarine;
+      border: none;
+      border-radius: 5%;
+      
+
+      font-family: "Open sans", sans-serif;
+      font-size: 17px;
+      font-weight: 500;
+      color: rgb(34, 98, 238);
+}
+    
+
+
+.submit:hover {
+      font-family: "Open sans", sans-serif;
+      cursor: pointer;
+      transform: scale(.97);
+}
+
+
+.contact-img:hover {
+      transform: scale(1.08);
+}

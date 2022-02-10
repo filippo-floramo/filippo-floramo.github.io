@@ -1,0 +1,27 @@
+$shadow-text: 7px 7px 20px black;
+$font-color-primary: #FFFFFF;
+$font-color-about: rgb(6, 7, 65);
+
+
+
+*  {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body {
+   font-family: "Open Sans", sans-serif;
+   color: $font-color-primary;
+}
+
+
+#head::before {
+   display: block;
+   content: '';
+   height: 60px;
+}
+
+
+

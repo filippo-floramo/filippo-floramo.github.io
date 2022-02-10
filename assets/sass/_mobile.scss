@@ -1,0 +1,202 @@
+@media (max-width: 570px) {
+
+ // Nav bar
+
+   .menu-bar {
+      bottom: 0;
+      border-bottom: 0px;
+      border-top: 1px solid white;
+
+   h2 {
+      display: none;
+   }
+
+   .nav-icons {
+      width: 100%;
+
+      li {
+        
+          p {
+            display: none;
+         }
+      } 
+   }
+ }
+
+ // Landing first page
+
+   #head::before {
+      height: 0;
+   }
+
+  .landing {
+   height: 100vh;
+
+   .landing-content-position {
+      top: 25%;
+
+      .landing-content {
+
+         .img-name {
+            width: 50%;
+         }
+      }
+   }
+ }
+
+
+ // About Section
+
+   #about {
+      padding-top: 20px;
+
+      .propic {
+         width: 60%;
+      }
+
+     .about-container {
+        flex-direction: column;
+
+        
+        .about-story {
+           height: 50%;
+           width: 100%;
+           
+           text-align: center;
+        }
+     }
+   } 
+ 
+
+   //Skills
+
+   .skills-container {
+
+      .skills-position {
+
+         top: 8%; 
+         width: 100%;
+         left: 1%;
+
+         .skills-content {
+            flex-direction: column;
+            height: 80vh;
+
+            .skills-p1 {
+               width: 70%;
+               padding: 20px 15px;
+            }
+
+            .skills-p2 {
+               padding: 20px 15px;
+               width: 70%;
+            }
+         }
+      }
+
+      
+   }
+
+
+   // Contacts
+
+   #contacts {
+      padding-top: 20px;
+
+      .contacts-container {
+
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-around;
+
+         .contact-form {
+            width: 90%;
+         }
+
+         .socials {
+            margin: 50px 0;
+         }
+
+      }
+
+
+   }
+
+
+
+
+
+
+
+
+  
+}
+
+
+@media (min-width: 571px) and (max-width:960px) {
+
+
+//Landing
+
+   .landing {
+      height: 95vh;
+
+      .landing-content-position{
+         top: 20%;
+      }
+   }
+
+//About
+
+   #about {
+      padding-top: 70px;
+
+      .about-container {
+         flex-direction: column;
+
+         .about-story {
+            width: 100%;
+         }
+      }
+   }
+
+
+   //Skills
+
+   .skills-container {
+
+      .skills-position {
+
+         top:10%; 
+
+         .skills-content{
+            height: 80vh;
+         }
+      }
+   }
+
+
+   //Contacts
+
+   #contacts {
+      padding-top: 70px;
+
+      .contacts-container {
+
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-around;
+
+         .contact-form {
+            width: 70%;
+         }
+
+         .socials {
+            margin: 50px 0;
+         }
+      }
+   }
+
+
+
+}

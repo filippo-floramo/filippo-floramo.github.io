@@ -1,0 +1,265 @@
+@import "config";
+@import "extend";
+@import "typo";
+@import "form";
+@import "button";
+
+
+// NAvigation Bar
+
+.menu-bar {
+   height: auto;
+   position: fixed;
+   width: 100%;
+   display: flex;
+   background-color: #002699;
+   border-bottom: 1px solid white;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 30px;
+   z-index: 1;
+   
+   
+   .nav-name {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      
+      li {
+         display: inline;
+
+         .nav-logo {
+            display: block;
+            width: 100%;
+            max-height: 50px;
+            margin: 0 6px 6px 0;
+         }
+      }
+     
+   }
+
+   .nav-icons {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding-top: 3px;
+      
+      li {
+         display: inline-block;
+
+         .nav-link {
+            text-decoration: none;
+            p {
+               text-align: center;
+               padding-bottom: 5px;
+               color: $font-color-primary;
+            }
+            .nav-img {
+               display: block;
+               width: 100%;
+               max-height: 40px;
+            }
+         }
+      }
+   }
+   
+}
+
+
+// Landing first page
+
+ .landing {
+   height: 100vh;
+   background-image: url("../images/backgrounds/landing.svg");
+
+   @extend %parallax-background;
+
+
+   .landing-content-position {
+      position: absolute;
+      top: 5%;
+      left: 10%;
+      width: 80%;
+
+      .landing-content {
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+         width: 100%;
+
+         .landing-hello {
+            margin-bottom: 15px;
+         }
+
+         .img-name {
+            display: block;
+            width: 40%;
+            align-self: center;
+            
+         }
+
+         .landing-payoff {
+            align-self: flex-end;
+         }         
+      }
+   }   
+}
+
+
+//About Section
+
+   #about {
+     height: auto;
+     background-color: #f8f8f8;
+     padding-top: 70px;
+     width: 100%;
+     
+
+      .about-qst {
+           text-align: center;
+           padding: 10px 0 30px 0;
+      }
+
+
+      .propic {
+         margin: 0 auto;
+         display: block;
+         
+         width: 350px;
+         
+      }
+
+      .about-container {
+       
+         padding:40px 30px 100px 30px;
+
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: space-around;
+         width: 100%;
+
+         .about-story {
+            width: 50%;
+            padding: 40px;
+         }
+      }
+   }
+
+
+
+//Skills Section
+
+.skills-container {
+
+   height: 100vh;
+
+   background-image: url(../images/backgrounds/skill3.svg);
+   @extend %parallax-background;
+
+   .skills-position {
+      position: absolute;
+      width: 95%;
+      top: 20%;
+      left: 3%;
+      
+     
+      
+      
+
+      .skills-content {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         height: 70vh;
+         width: 100%;
+
+         .skills-p1 {
+            width: 100%;
+            padding: 0 30px;
+            align-self: flex-start;
+         }
+
+         .skills-p2 {
+            width: 100%;
+            padding: 20px 30px;
+            align-self: flex-end;
+         }
+      }
+   }
+}
+
+//Contanct section
+
+
+#contacts {
+   height: auto;
+   background-color: #FF4B43;
+   padding-top: 70px;
+
+   .get-touch {
+      text-align: center;
+      padding-bottom: 30px;
+   }
+
+   .contacts-container {
+      margin: 0 auto;
+      height: auto;
+      width: 100%;
+      padding-bottom: 50px;
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+
+      .contact-form{
+         width: 30%;
+
+      }
+
+      .socials {
+         align-self: center;
+
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+
+         .contacts-link-cont {
+            width: 20%;
+            margin: 20px 0;
+
+            .link-container {
+               margin-bottom: 20px;
+
+               .link-img {
+                  display: block;
+
+                  .contact-img {
+                     display: block;
+                  }
+               }
+            }
+         }
+      }
+
+     
+   }
+
+}
+
+
+
+
+ 
+
+
+
+
+
+@import "mobile";
+

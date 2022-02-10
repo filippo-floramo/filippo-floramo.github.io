@@ -1,0 +1,81 @@
+ 
+/* Landing */
+
+ .landing-hello {
+    font-size: 2em;
+    font-weight: 700;
+    text-shadow: $shadow-text;
+ }
+
+ .landing-payoff {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-shadow: $shadow-text;
+ }
+
+
+ 
+ 
+ 
+ /* About*/
+ 
+ #about {
+    color: $font-color-about;
+
+    .about-qst {
+       font-size: 1.9em;
+    }
+
+    .about-story {
+      font-size: 1.1em;
+      font-weight: 420;
+      line-height: 1.8em;
+
+      h3 {
+         text-align: center;
+         margin-bottom: 15px;
+      }
+
+      ul {
+         line-height: 1.5em;
+
+         li {
+            margin-bottom: 20px;
+         }
+      }
+    }
+ }
+
+
+/*Skills*/
+
+.skills-content {
+   font-size: 1.2em;
+   line-height: 1.4em;
+   text-shadow: $shadow-text;
+
+   .tools {
+      color: #f85c53;
+   }
+
+   .works {
+      color: $font-color-primary;
+   }
+
+   .temporary {
+      text-align: center;
+   }
+}
+
+
+/* Contacts */
+
+.get-touch {
+   font-size: 1.7em;
+}
+
+
+.form-label {
+   font-size: 1.2em;
+   font-weight: 450;
+}
