@@ -32,6 +32,8 @@
   .landing {
    height: 100vh;
 
+   background-attachment: scroll;
+
    .landing-content-position {
       top: 25%;
 
@@ -71,6 +73,8 @@
    //Skills
 
    .skills-container {
+
+      background-attachment: scroll;
 
       .skills-position {
 
