@@ -2,7 +2,9 @@ $shadow-text: 7px 7px 20px black;
 $font-color-primary: #FFFFFF;
 $font-color-about: rgb(6, 7, 65);
 
-
+html {
+   scroll-behavior: smooth;
+}
 
 *  {
    margin: 0;
