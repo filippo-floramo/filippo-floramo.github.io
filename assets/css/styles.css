@@ -141,8 +141,21 @@ body {
 
 /*Nav*/
 .nav-img:hover {
-  -webkit-transform: scale(0.98);
-          transform: scale(0.98);
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.nav-img:active {
+  -webkit-transform: scale(0.94);
+          transform: scale(0.94);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 /*About */
@@ -152,6 +165,13 @@ body {
 
 .s2i:hover {
   color: #0f119e;
+}
+
+/*Skills*/
+.works:hover {
+  text-shadow: 7px 7px 8px black;
+  -webkit-transition: text-shadow 0.5s;
+  transition: text-shadow 0.5s;
 }
 
 /*Contacts*/
@@ -171,11 +191,37 @@ body {
   cursor: pointer;
   -webkit-transform: scale(0.97);
           transform: scale(0.97);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.submit:active {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .contact-img:hover {
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.contact-img:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .menu-bar {

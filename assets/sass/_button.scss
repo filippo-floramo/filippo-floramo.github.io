@@ -2,7 +2,13 @@
 /*Nav*/
 
 .nav-img:hover {
-      transform: scale(.98); 
+      transform: scale(.96); 
+      transition: transform 0.5s;
+}
+
+.nav-img:active {
+      transform: scale(.94);
+      transition: transform 0.2s;
 }
 
 
@@ -17,6 +23,12 @@
 }
 
 
+/*Skills*/
+
+.works:hover {
+      text-shadow: 7px 7px 8px black;
+      transition: text-shadow 0.5s;
+}
 
 
 /*Contacts*/
@@ -40,9 +52,22 @@
       font-family: "Open sans", sans-serif;
       cursor: pointer;
       transform: scale(.97);
+      transition: transform 0.5s;
+}
+
+.submit:active {
+      transform: scale(.92);
+      transition: transform 0.3s;
 }
 
 
 .contact-img:hover {
       transform: scale(1.08);
+      transition: transform 0.5s;
+}
+
+.contact-img:active {
+      transform: scale(0.95);
+      transition: transform 0.3s;
+
 }
